@@ -1,0 +1,9 @@
+Firstly, I conducted a preliminary analysis of the dataset, examining basic statistics such as mean, median, 
+and standard deviation. Following this, I assessed the presence of missing values and outliers. 
+Subsequently, I made the decision to drop the columns 'index,' 'Style,' 'promotion-ids,' 'Unnamed: 22,' 
+'ASIN,' 'fulfilled-by,' and 'currency' due to their containing missing values and lack of significance for data analysis purposes.
+                 To address missing values, I employed the mode to fill the categorical column 'courier status' and 
+the median for the numerical column 'amount' due to the presence of outliers. Additionally, 
+I opted to drop some rows in the 'ship-city' column due to their containing relatively fewer missing values compared to other columns.
+              Furthermore, I conducted a check for duplicate values and removed them to ensure they 
+did not adversely affect the dataset. Lastly, I formatted the date column to the correct format for improved consistency and analysis.
